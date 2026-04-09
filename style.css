@@ -1,0 +1,82 @@
+body {
+  font-family: Arial;
+  background: #0d0221; /* deep space purple */
+  margin: 0;
+  padding: 30px;
+  color: #e2e8f0;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  background: linear-gradient(135deg, #4cc9f0, #f72585);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.main {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  background: #16213e; /* midnight blue */
+  color: #e2e8f0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  border: 1px solid #7b2fbe55;
+}
+.searchBox {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #4cc9f055;
+  background: #0d0221;
+  color: #e2e8f0;
+}
+input::placeholder {
+  color: #64748b;
+}
+button {
+  background: linear-gradient(135deg, #7209b7, #f72585);
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.85;
+}
+#history span {
+  background: linear-gradient(135deg, #7209b7, #f72585);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 3px;
+  display: inline-block;
+  cursor: pointer;
+}
+.consoleCard {
+  background: #16213e;
+  color: #e2e8f0;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #7b2fbe55;
+}
+#consoleBox {
+  background: #0d0221;
+  color: #4cc9f0; /* electric cyan */
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #4cc9f033;
+}
